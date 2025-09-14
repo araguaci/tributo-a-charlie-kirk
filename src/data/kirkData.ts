@@ -179,7 +179,22 @@ export const articles = [
       <p>Construir um movimento é uma maratona, não um sprint. Requer dedicação, estratégia e uma crença inabalável na sua causa. A trajetória de Charlie Kirk oferece um roteiro valioso para qualquer um que deseje fazer a diferença.</p>
     `,
   },
-  { slug: "principios-inabalaveis", title: "A Importância de Princípios Inabaláveis", summary: "Por que Kirk acreditava que princípios firmes são essenciais em tempos de mudança.", content: "<p>Em breve...</p>" },
+  {
+    slug: "principios-inabalaveis",
+    title: "A Importância de Princípios Inabaláveis",
+    summary: "Por que Kirk acreditava que princípios firmes são essenciais em tempos de mudança.",
+    content: `
+      <p class="mb-4">Charlie Kirk era um defensor fervoroso da ideia de que, em um mundo em constante mudança, a adesão a princípios inabaláveis é mais crucial do que nunca. Ele argumentava que sem uma base sólida de valores e verdades atemporais, a sociedade se torna suscetível à deriva moral e à confusão ideológica.</p>
+
+      <p class="mb-4">Para Kirk, esses princípios não eram meras convenções sociais, mas sim verdades fundamentais que sustentam a civilização ocidental, como a liberdade individual, a responsabilidade pessoal, a fé e a família. Ele via a defesa desses pilares como uma forma de resistência contra as forças que buscavam desmantelar as estruturas tradicionais e promover o relativismo.</p>
+
+      <blockquote class="border-l-4 border-stars-blue pl-4 italic my-6">
+        "Em tempos de incerteza, os princípios não são um luxo, mas uma bússola essencial."
+      </blockquote>
+
+      <p>Ele frequentemente desafiava seus ouvintes a não se curvarem às pressões culturais ou políticas, mas a se manterem firmes em suas convicções, baseando suas ações e pensamentos em uma compreensão clara do que é certo e verdadeiro. Essa postura era central para sua mensagem de empoderamento da juventude conservadora, incentivando-os a serem faróis de clareza em um mundo complexo.</p>
+    `,
+  },
   { slug: "linha-tempo-carreira", title: "Do Estudante ao Influenciador: Linha do Tempo da Carreira", summary: "Uma cronologia detalhada de sua ascensão como uma das vozes mais proeminentes do conservadorismo.", content: "<p>Em breve...</p>" },
   {
     slug: "15-frases-famosas-charlie-kirk",
@@ -231,7 +246,7 @@ export const articles = [
       <h2>Reações de Celebridades e Figuras Públicas</h2>
       <p>Celebridades e líderes conservadores expressaram luto via mídias sociais e entrevistas, misturando emoção e chamadas à ação:</p>
       <ul>
-        <li><strong>Viúva Erika Kirk</strong>: Em um endereço lacrimoso, agradeceu aos socorros e pediu que o legado de Kirk inspire unidade.</li>
+        <li><strong>Viúva Erika Kirk</strong>: Em um endereço lacrimoso, agradeceu aos primeiros socorros e pediu que o legado de Kirk inspire unidade.</li>
         <li><strong>Celebridades e Entretenimento</strong>: Figuras como Khloe Kardashian curtiram tributos cristãos a Kirk, gerando controvérsia entre fãs liberais. Estrelas de Hollywood e entretenimento compartilharam mensagens, com alguns criticados por associações conservadoras.</li>
         <li><strong>Esportes</strong>: O piloto de NASCAR Austin Dillon elogiou o "heroísmo" de Kirk, após a equipe Richard Childress Racing dedicar uma homenagem em corridas.</li>
         <li><strong>Mídia e Ativistas</strong>: A Fundação para Educação Econômica (FEE) publicou um tributo enfatizando sua defesa da liberdade de expressão. O Daily Wire republicou citações de Kirk, com milhões de visualizações. Políticos como Elise Stefanik ligaram sua morte a falhas em políticas de liberdade condicional.</li>
