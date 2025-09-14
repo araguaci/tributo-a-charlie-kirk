@@ -21,7 +21,7 @@ const timelineData = [
 const Sobre = () => {
   return (
     <div className="container mx-auto max-w-4xl py-12 px-4">
-      <h1 className="text-4xl font-bold text-center mb-8 text-stars-blue">Sobre Charlie Kirk</h1>
+      <h1 className="text-4xl font-bold text-center mb-8 text-primary">Sobre Charlie Kirk</h1>
       <p className="text-center text-lg text-muted-foreground mb-12">
         Conheça a trajetória, os princípios e o impacto de Charlie Kirk, uma das vozes mais influentes do conservadorismo jovem nos Estados Unidos.
       </p>
@@ -37,7 +37,7 @@ const Sobre = () => {
       <div className="grid grid-cols-1 gap-8 mb-12">
         <Card>
           <CardHeader>
-            <CardTitle className="text-2xl font-semibold text-american-sunset flex items-center gap-3">
+            <CardTitle className="text-2xl font-semibold text-destructive flex items-center gap-3">
               <FontAwesomeIcon icon={faBullhorn} className="h-6 w-6" />
               <span>O Catalisador do Ativismo Juvenil</span>
             </CardTitle>
@@ -47,14 +47,14 @@ const Sobre = () => {
               A trajetória de Charlie Kirk como figura pública começou com convicções juvenis e experiências pessoais que se tornaram centrais em sua narrativa. Nascido em 1993, em Illinois, Kirk foi rejeitado pela academia militar de West Point e frequentou a faculdade por apenas um semestre antes de se dedicar ao ativismo em tempo integral.
             </p>
             <p>
-              Ele transformou a falta de um diploma em um ponto de orgulho, argumentando que as universidades eram "elitistas e fora de contato" e um "golpe patrocinado pelo governo". Essa narrativa ressoou com jovens céticos em relação à educação tradicional, permitindo que Kirk se posicionasse como um representante autêntico da "maioria do país".
+              Ele transformou a falta de um diploma em um ponto de orgulho, argumentando que as universidades eram "elitistas e fora de contato" e um "golpe patrocinado pelo governo". Essa narrativa ressoou com jovens céticos em relação à educação tradicional, permitindo que Kirk se posicione como um representante autêntico da "maioria do país".
             </p>
           </CardContent>
         </Card>
 
         <Card>
           <CardHeader>
-            <CardTitle className="text-2xl font-semibold text-american-sunset flex items-center gap-3">
+            <CardTitle className="text-2xl font-semibold text-destructive flex items-center gap-3">
               <FontAwesomeIcon icon={faUniversity} className="h-6 w-6" />
               <span>A Construção da Turning Point USA (TPUSA)</span>
             </CardTitle>
@@ -71,7 +71,7 @@ const Sobre = () => {
 
         <Card>
           <CardHeader>
-            <CardTitle className="text-2xl font-semibold text-american-sunset flex items-center gap-3">
+            <CardTitle className="text-2xl font-semibold text-destructive flex items-center gap-3">
               <FontAwesomeIcon icon={faHandshake} className="h-6 w-6" />
               <span>O Alinhamento com o Movimento Trump</span>
             </CardTitle>
@@ -89,7 +89,7 @@ const Sobre = () => {
 
       <Separator className="my-12 bg-border/50" />
 
-      <h2 className="text-3xl font-bold text-center mb-16 text-stars-blue">Linha do Tempo da Ascensão</h2>
+      <h2 className="text-3xl font-bold text-center mb-16 text-primary">Linha do Tempo da Ascensão</h2>
       
       <div className="relative wrap overflow-hidden p-2 md:p-10 h-full">
         <div className="absolute border-opacity-20 border-muted-foreground/40 h-full border-2" style={{ left: '50%' }}></div>
@@ -97,11 +97,11 @@ const Sobre = () => {
         {timelineData.map((item, index) => (
           <div key={index} className={`mb-8 flex justify-between items-center w-full ${index % 2 === 0 ? 'md:flex-row-reverse' : ''}`}>
             <div className="order-1 w-5/12 hidden md:block"></div>
-            <div className="z-20 flex items-center order-1 bg-stars-blue shadow-xl w-24 h-8 rounded-full">
+            <div className="z-20 flex items-center order-1 bg-primary shadow-xl w-24 h-8 rounded-full">
               <h1 className="mx-auto font-semibold text-md text-white">{item.year}</h1>
             </div>
             <div className="order-1 bg-card rounded-lg shadow-xl w-full md:w-5/12 px-6 py-4">
-              <h3 className="font-bold text-american-sunset text-lg mb-2 flex items-center gap-2">
+              <h3 className="font-bold text-destructive text-lg mb-2 flex items-center gap-2">
                 <FontAwesomeIcon icon={item.icon} className="h-4 w-4" />
                 <span>{item.title}</span>
               </h3>
