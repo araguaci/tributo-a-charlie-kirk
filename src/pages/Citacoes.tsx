@@ -1,36 +1,26 @@
-import { Card, CardContent } from "@/components/ui/card";
-import { quotes } from "../data/kirkData";
-import { Twitter } from "lucide-react";
+import React from 'react';
+import { quotes } from '@/data/kirkData';
+import { Card, CardContent, CardHeader, CardTitle, CardFooter } from '@/components/ui/card';
 
 const Citacoes = () => {
-  const createTwitterLink = (quote: string) => {
-    const text = encodeURIComponent(`"${quote}" - Charlie Kirk`);
-    return `https://twitter.com/intent/tweet?text=${text}`;
-  };
-
   return (
-    <div className="container mx-auto max-w-6xl py-12 px-4">
-      <h1 className="text-4xl font-bold text-center mb-8 text-stars-blue">Palavras de Inspiração</h1>
+    <div className="container mx-auto max-w-4xl py-12 px-4">
+      <h1 className="text-4xl font-bold text-center mb-8 text-stars-blue">Citações Inspiradoras</h1>
       <p className="text-center text-lg text-muted-foreground mb-12">
-        Uma coleção de citações famosas de Charlie Kirk. Clique para compartilhar.
+        Uma coleção das frases mais impactantes e memoráveis de Charlie Kirk, que resumem sua visão sobre liberdade, conservadorismo e a cultura.
       </p>
+
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {quotes.map((quote, index) => (
-          <Card key={index} className="flex flex-col justify-between group">
-            <CardContent className="p-6">
-              <blockquote className="text-lg font-medium">
-                “{quote}”
+          <Card key={index} className="h-full flex flex-col justify-between p-6 bg-card hover:shadow-lg transition-shadow duration-300">
+            <CardContent className="p-0">
+              <blockquote className="text-lg italic leading-relaxed text-foreground">
+                "{quote}"
               </blockquote>
             </CardContent>
-            <a
-              href={createTwitterLink(quote)}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center justify-center p-4 bg-liberty-sky/10 text-liberty-sky opacity-0 group-hover:opacity-100 transition-opacity"
-            >
-              <Twitter className="h-5 w-5 mr-2" />
-              Compartilhar no X
-            </a>
+            <CardFooter className="p-0 pt-4 text-right text-sm text-muted-foreground">
+              — Charlie Kirk
+            </CardFooter>
           </Card>
         ))}
       </div>
