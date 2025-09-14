@@ -72,7 +72,25 @@ export const articles = [
       <p>Este e outros discursos semelhantes não eram apenas sobre vencer um argumento; eram sobre demonstrar a importância do diálogo aberto e da coragem intelectual. Eles mostraram a uma geração que é possível manter-se firme em seus princípios, mesmo quando se é a minoria na sala.</p>
     `,
   },
-  { slug: "podcasts-populares", title: "Os Podcasts Mais Populares do Charlie Kirk Show", summary: "Uma lista dos episódios mais ouvidos que ressoaram com a audiência jovem.", content: "<p>Em breve...</p>" },
+  { slug: "podcasts-populares", title: "Os Podcasts Mais Populares do Charlie Kirk Show", summary: "Uma lista dos episódios mais ouvidos que ressoaram com a audiência jovem.", content: `
+      <p class="mb-4">O "The Charlie Kirk Show" tornou-se um dos podcasts mais influentes no cenário conservador, alcançando milhões de ouvintes diariamente. Através de entrevistas, análises e comentários perspicazes, Kirk abordava uma vasta gama de tópicos, desde política e cultura até questões sociais e fé.</p>
+
+      <h3 class="text-2xl font-bold mt-8 mb-4 text-stars-blue">Temas Recorrentes e Impacto</h3>
+      <p class="mb-4">Os episódios mais populares frequentemente giravam em torno de:</p>
+      <ul class="list-disc list-inside space-y-2 mb-6">
+        <li><strong>Crítica ao Progressismo:</strong> Desmascarando o que ele via como falhas e perigos das ideologias progressistas.</li>
+        <li><strong>Defesa da Liberdade:</strong> Argumentando a favor da liberdade individual, econômica e de expressão.</li>
+        <li><strong>Cultura e Valores:</strong> Discutindo a importância dos valores tradicionais e da fé na sociedade.</li>
+        <li><strong>Notícias e Análise Política:</strong> Oferecendo uma perspectiva conservadora sobre os eventos atuais.</li>
+      </ul>
+
+      <blockquote class="border-l-4 border-american-sunset pl-4 italic my-6">
+        "O podcast é uma ferramenta poderosa para contornar a mídia tradicional e falar diretamente com as pessoas."
+      </blockquote>
+
+      <p>A popularidade do podcast de Kirk demonstrava sua habilidade em conectar-se com uma audiência jovem e engajada, oferecendo uma voz alternativa e desafiadora no debate público.</p>
+    `
+  },
   {
     slug: "causas-sociais",
     title: "Causas Sociais Mais Defendidas Por Charlie Kirk",
@@ -195,7 +213,11 @@ export const articles = [
       <p>Ele frequentemente desafiava seus ouvintes a não se curvarem às pressões culturais ou políticas, mas a se manterem firmes em suas convicções, baseando suas ações e pensamentos em uma compreensão clara do que é certo e verdadeiro. Essa postura era central para sua mensagem de empoderamento da juventude conservadora, incentivando-os a serem faróis de clareza em um mundo complexo.</p>
     `,
   },
-  { slug: "linha-tempo-carreira", title: "Do Estudante ao Influenciador: Linha do Tempo da Carreira", summary: "Uma cronologia detalhada de sua ascensão como uma das vozes mais proeminentes do conservadorismo.", content: `
+  {
+    slug: "linha-tempo-carreira",
+    title: "Do Estudante ao Influenciador: Linha do Tempo da Carreira",
+    summary: "Uma cronologia detalhada de sua ascensão como uma das vozes mais proeminentes do conservadorismo.",
+    content: `
       <p class="mb-4">A trajetória de Charlie Kirk é um exemplo notável de como a paixão e a dedicação podem transformar um estudante em um influenciador nacional e global. Sua carreira foi marcada por momentos decisivos que moldaram o movimento conservador jovem.</p>
 
       <h3 class="text-2xl font-bold mt-8 mb-4 text-stars-blue">Cronologia de uma Ascensão</h3>
