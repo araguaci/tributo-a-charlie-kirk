@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { articles } from '@/data/kirkData';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle, CardFooter } from '@/components/ui/card';
+import { Button } from '@/components/ui/button'; // Importar o componente Button
+import { Twitter } from 'lucide-react'; // Importar o ícone do Twitter
 
 const Artigos = () => {
   return (
@@ -22,6 +24,21 @@ const Artigos = () => {
               <CardContent className="flex-grow">
                 {/* Conteúdo adicional ou imagem pode ser adicionado aqui */}
               </CardContent>
+              <CardFooter className="p-6 pt-0 flex justify-end">
+                <Button
+                  variant="ghost"
+                  size="icon"
+                  onClick={(e) => {
+                    e.preventDefault(); // Previne a navegação do card
+                    const shareUrl = `${window.location.origin}/artigos/${article.slug}`;
+                    const tweetText = encodeURIComponent(`${article.title} - Leia mais em: ${shareUrl} #CharlieKirk #Artigos`);
+                    window.open(`https://twitter.com/intent/tweet?text=${tweetText}`, '_blank');
+                  }}
+                  aria-label="Compartilhar no X"
+                >
+                  <Twitter className="h-4 w-4" />
+                </Button>
+              </CardFooter>
             </Card>
           </Link>
         ))}
