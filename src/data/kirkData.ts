@@ -5,6 +5,12 @@ export const articles = [
     summary: "Explore lições cruciais sobre como os jovens podem se engajar efetivamente na política e defender suas crenças.",
     content: `
       <p class="mb-4">Charlie Kirk dedicou sua vida a capacitar a próxima geração de líderes conservadores. Seu ativismo começou cedo e, através da Turning Point USA, ele criou uma plataforma para milhões de jovens. Aqui estão sete dos seus ensinamentos mais impactantes sobre o ativismo jovem:</p>
+      
+      <blockquote class="border-l-4 border-american-sunset bg-american-sunset/10 p-4 my-6 not-prose rounded-r-lg">
+        <p class="font-semibold text-american-sunset">NOTA</p>
+        <p class="text-sm text-foreground/90">Estes princípios são aplicáveis não apenas na política, mas em qualquer área onde você queira liderar e causar impacto.</p>
+      </blockquote>
+
       <ol class="list-decimal list-inside space-y-4 mb-6">
         <li><strong>Comece Onde Você Está:</strong> Não espere por um grande palco. Comece em sua escola, universidade ou comunidade local. O impacto local gera ondas nacionais.</li>
         <li><strong>Domine os Fatos:</strong> A paixão é importante, mas os fatos são sua munição. Estude, leia e esteja preparado para defender seus argumentos com dados e lógica.</li>
