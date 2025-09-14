@@ -46,7 +46,7 @@ const ContactForm = () => {
   return (
     <form
       onSubmit={form.handleSubmit(onSubmit)}
-      action="https://formspree.io/f/YOUR_FORMSPREE_ENDPOINT"
+      action="https://formspree.io/f/mkgwoggg"
       method="POST"
       className="space-y-6"
     >
