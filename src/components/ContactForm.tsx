@@ -37,8 +37,6 @@ const ContactForm = () => {
   });
 
   const onSubmit = (values: ContactFormValues) => {
-    console.log(values);
-    // Aqui você enviaria os dados do formulário para uma API de backend
     toast.success("Mensagem enviada com sucesso!", {
       description: "Agradecemos o seu contato. Responderemos em breve.",
     });
@@ -46,7 +44,12 @@ const ContactForm = () => {
   };
 
   return (
-    <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
+    <form
+      onSubmit={form.handleSubmit(onSubmit)}
+      action="https://formspree.io/f/YOUR_FORMSPREE_ENDPOINT"
+      method="POST"
+      className="space-y-6"
+    >
       <div>
         <Label htmlFor="name">Nome</Label>
         <Input
