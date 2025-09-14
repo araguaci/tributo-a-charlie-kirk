@@ -54,9 +54,51 @@ export const articles = [
       <p>Este e outros discursos semelhantes não eram apenas sobre vencer um argumento; eram sobre demonstrar a importância do diálogo aberto e da coragem intelectual. Eles mostraram a uma geração que é possível manter-se firme em seus princípios, mesmo quando se é a minoria na sala.</p>
     `,
   },
-  // Adicionando placeholders para os outros artigos
   { slug: "podcasts-populares", title: "Os Podcasts Mais Populares do Charlie Kirk Show", summary: "Uma lista dos episódios mais ouvidos que ressoaram com a audiência jovem.", content: "<p>Em breve...</p>" },
-  { slug: "causas-sociais", title: "Causas Sociais Mais Defendidas Por Charlie Kirk", summary: "Uma análise das causas que ele defendia, da liberdade de expressão à santidade da vida.", content: "<p>Em breve...</p>" },
+  {
+    slug: "causas-sociais",
+    title: "Causas Sociais Mais Defendidas Por Charlie Kirk",
+    summary: "Uma análise das causas que ele defendia, da liberdade de expressão à santidade da vida.",
+    content: `
+      <p class="mb-4">Charlie Kirk não se limitava a comentar a política do dia-a-dia; ele era um defensor apaixonado de princípios fundamentais que ele acreditava serem a base de uma sociedade próspera e livre. Abaixo estão algumas das causas sociais mais proeminentes em seu trabalho.</p>
+      
+      <div class="overflow-x-auto my-6">
+        <table class="min-w-full">
+          <thead class="bg-background">
+            <tr>
+              <th class="py-2 px-4 border-b text-left text-sm font-semibold text-muted-foreground">Causa</th>
+              <th class="py-2 px-4 border-b text-left text-sm font-semibold text-muted-foreground">Descrição</th>
+              <th class="py-2 px-4 border-b text-left text-sm font-semibold text-muted-foreground">Citação Chave</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="py-2 px-4 border-b align-top font-semibold">Liberdade de Expressão</td>
+              <td class="py-2 px-4 border-b align-top">Kirk via a liberdade de expressão, especialmente nos campi universitários, como a pedra angular da busca pela verdade. Ele lutou contra a "cultura do cancelamento" e os "espaços seguros" que limitavam o debate.</td>
+              <td class="py-2 px-4 border-b align-top italic">"A verdade não tem medo de ser questionada."</td>
+            </tr>
+            <tr>
+              <td class="py-2 px-4 border-b align-top font-semibold">Valores Judaico-Cristãos</td>
+              <td class="py-2 px-4 border-b align-top">Ele argumentava que os valores derivados da tradição judaico-cristã eram essenciais para a moralidade e a ordem da civilização ocidental.</td>
+              <td class="py-2 px-4 border-b align-top italic">"A Bíblia é o livro mais importante já escrito."</td>
+            </tr>
+            <tr>
+              <td class="py-2 px-4 border-b align-top font-semibold">Meritocracia</td>
+              <td class="py-2 px-4 border-b align-top">Opondo-se a políticas de identidade e ação afirmativa, Kirk defendia que o sucesso deveria ser baseado no mérito, trabalho duro e talento individual, não em afiliações de grupo.</td>
+              <td class="py-2 px-4 border-b align-top italic">"O trabalho duro e a meritocracia são os motores do progresso humano."</td>
+            </tr>
+            <tr>
+              <td class="py-2 px-4 border-b align-top font-semibold">Santidade da Vida</td>
+              <td class="py-2 px-4 border-b align-top">Como um forte defensor pró-vida, ele acreditava na proteção da vida desde a concepção, considerando-a uma obrigação moral fundamental.</td>
+              <td class="py-2 px-4 border-b align-top italic">"Uma sociedade que não protege os mais vulneráveis não pode se considerar justa."</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>Essas causas não eram apenas tópicos de debate para Kirk; eram convicções profundas que moldaram todo o seu ativismo e inspiraram milhões de seguidores a pensar criticamente sobre os pilares da sociedade.</p>
+    `,
+  },
   { slug: "legado-lideranca", title: "O Legado de Liderança Juvenil de Charlie Kirk", summary: "Como ele transformou o ativismo estudantil em uma força de influência nacional.", content: "<p>Em breve...</p>" },
   { slug: "valor-vida-familia", title: "O Valor da Vida e da Família em Sua Obra", summary: "Uma reflexão sobre os pilares conservadores da vida e da família em seus ensinamentos.", content: "<p>Em breve...</p>" },
   { slug: "construir-movimento", title: "Como Construir um Movimento do Zero: Lições Práticas", summary: "Um guia passo a passo inspirado na jornada de Charlie Kirk com a TPUSA.", content: "<p>Em breve...</p>" },
