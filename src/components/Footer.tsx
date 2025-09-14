@@ -1,4 +1,5 @@
-import { Twitter } from "lucide-react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faXTwitter } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   return (
@@ -16,7 +17,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary"
           >
-            <Twitter className="h-5 w-5" />
+            <FontAwesomeIcon icon={faXTwitter} className="h-5 w-5" />
             <span className="sr-only">Twitter</span>
           </a>
         </div>
