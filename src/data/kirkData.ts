@@ -99,7 +99,28 @@ export const articles = [
       <p>Essas causas não eram apenas tópicos de debate para Kirk; eram convicções profundas que moldaram todo o seu ativismo e inspiraram milhões de seguidores a pensar criticamente sobre os pilares da sociedade.</p>
     `,
   },
-  { slug: "legado-lideranca", title: "O Legado de Liderança Juvenil de Charlie Kirk", summary: "Como ele transformou o ativismo estudantil em uma força de influência nacional.", content: "<p>Em breve...</p>" },
+  {
+    slug: "legado-lideranca",
+    title: "O Legado de Liderança Juvenil de Charlie Kirk",
+    summary: "Como ele transformou o ativismo estudantil em uma força de influência nacional.",
+    content: `
+      <p class="mb-4">Charlie Kirk, através da fundação da Turning Point USA (TPUSA) em 2012, revolucionou o ativismo conservador entre os jovens. Seu legado não se resume apenas a uma organização, mas a um movimento que capacitou milhares de estudantes a se tornarem vozes ativas em seus campi e comunidades.</p>
+      
+      <h3 class="text-2xl font-bold mt-8 mb-4 text-stars-blue">Capacitando a Próxima Geração</h3>
+      <p class="mb-4">A visão de Kirk era clara: combater a hegemonia ideológica nas universidades e inspirar jovens a defenderem os princípios de liberdade individual, governo limitado e livre mercado. Ele fez isso através de:</p>
+      <ul class="list-disc list-inside space-y-2 mb-6">
+        <li><strong>Eventos e Conferências:</strong> Organizando grandes eventos que reuniam milhares de estudantes, oferecendo treinamento em comunicação, organização e liderança.</li>
+        <li><strong>Rede de Capítulos:</strong> Estabelecendo capítulos da TPUSA em centenas de campi universitários e escolas secundárias, criando uma rede de ativistas locais.</li>
+        <li><strong>Mídia e Comunicação:</strong> Utilizando podcasts, redes sociais e aparições na mídia para disseminar ideias conservadoras e engajar um público jovem.</li>
+      </ul>
+
+      <blockquote class="border-l-4 border-american-sunset pl-4 italic my-6">
+        "Não podemos nos dar ao luxo de ceder a próxima geração à esquerda. É nossa responsabilidade lutar por suas mentes e corações."
+      </blockquote>
+
+      <p>O impacto de Kirk pode ser visto na crescente presença de jovens conservadores no debate público e na formação de uma nova geração de líderes que não têm medo de defender suas convicções. Seu trabalho com a TPUSA se tornou um modelo para o ativismo juvenil, mostrando que a paixão e a organização podem transformar o cenário político e cultural.</p>
+    `,
+  },
   { slug: "valor-vida-familia", title: "O Valor da Vida e da Família em Sua Obra", summary: "Uma reflexão sobre os pilares conservadores da vida e da família em seus ensinamentos.", content: "<p>Em breve...</p>" },
   { slug: "construir-movimento", title: "Como Construir um Movimento do Zero: Lições Práticas", summary: "Um guia passo a passo inspirado na jornada de Charlie Kirk com a TPUSA.", content: "<p>Em breve...</p>" },
   { slug: "principios-inabalaveis", title: "A Importância de Princípios Inabaláveis", summary: "Por que Kirk acreditava que princípios firmes são essenciais em tempos de mudança.", content: "<p>Em breve...</p>" },
