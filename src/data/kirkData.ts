@@ -155,7 +155,30 @@ export const articles = [
       <p>Ele acreditava que o enfraquecimento desses valores levava à desintegração social e à perda de identidade cultural, e por isso dedicou grande parte de sua plataforma a promover e defender a estrutura familiar e o respeito pela vida em todas as suas fases.</p>
     `,
   },
-  { slug: "construir-movimento", title: "Como Construir um Movimento do Zero: Lições Práticas", summary: "Um guia passo a passo inspirado na jornada de Charlie Kirk com a TPUSA.", content: "<p>Em breve...</p>" },
+  {
+    slug: "construir-movimento",
+    title: "Como Construir um Movimento do Zero: Lições Práticas",
+    summary: "Um guia passo a passo inspirado na jornada de Charlie Kirk com a TPUSA.",
+    content: `
+      <p class="mb-4">A história de Charlie Kirk e a fundação da Turning Point USA (TPUSA) são um testemunho do poder da visão, paixão e trabalho árduo na construção de um movimento do zero. Para aqueles que aspiram a criar seu próprio impacto, aqui estão lições práticas inspiradas em sua jornada:</p>
+
+      <ol class="list-decimal list-inside space-y-4 mb-6">
+        <li><strong>Identifique uma Lacuna e uma Paixão:</strong> Kirk percebeu uma ausência de vozes conservadoras organizadas nos campi universitários. Sua paixão por esses princípios o impulsionou a agir. Qual problema você vê que precisa ser resolvido? O que te move profundamente?</li>
+        <li><strong>Comece Pequeno, Pense Grande:</strong> A TPUSA começou com Kirk e alguns amigos. Não espere por recursos ilimitados. Comece com o que você tem, mas mantenha uma visão ambiciosa para o futuro.</li>
+        <li><strong>Comunique Sua Mensagem de Forma Clara e Persuasiva:</strong> Kirk é um mestre na comunicação. Ele simplifica ideias complexas e as apresenta de forma que ressoa com seu público. Desenvolva sua capacidade de articular seus valores e objetivos.</li>
+        <li><strong>Construa uma Equipe Dedicada:</strong> Nenhum movimento é construído sozinho. Cerque-se de pessoas que compartilham sua visão e estão dispostas a trabalhar duro. A confiança e o alinhamento são cruciais.</li>
+        <li><strong>Seja Resiliente Diante da Adversidade:</strong> Kirk enfrentou inúmeras críticas e oposição. A capacidade de persistir, aprender com os contratempos e seguir em frente é fundamental para o sucesso a longo prazo.</li>
+        <li><strong>Utilize Todas as Ferramentas Disponíveis:</strong> Desde mídias sociais até eventos presenciais, Kirk soube usar diversas plataformas para amplificar sua mensagem e engajar seu público. Explore diferentes canais para alcançar as pessoas.</li>
+        <li><strong>Capacite Outros Líderes:</strong> O verdadeiro legado de um movimento é a capacidade de inspirar e capacitar outros a liderar. A TPUSA se tornou uma incubadora de jovens líderes conservadores.</li>
+      </ol>
+
+      <blockquote class="border-l-4 border-american-sunset pl-4 italic my-6">
+        "Não se trata de ser o mais inteligente na sala, mas de ser o mais corajoso para falar a verdade."
+      </blockquote>
+
+      <p>Construir um movimento é uma maratona, não um sprint. Requer dedicação, estratégia e uma crença inabalável na sua causa. A trajetória de Charlie Kirk oferece um roteiro valioso para qualquer um que deseje fazer a diferença.</p>
+    `,
+  },
   { slug: "principios-inabalaveis", title: "A Importância de Princípios Inabaláveis", summary: "Por que Kirk acreditava que princípios firmes são essenciais em tempos de mudança.", content: "<p>Em breve...</p>" },
   { slug: "linha-tempo-carreira", title: "Do Estudante ao Influenciador: Linha do Tempo da Carreira", summary: "Uma cronologia detalhada de sua ascensão como uma das vozes mais proeminentes do conservadorismo.", content: "<p>Em breve...</p>" },
   {
@@ -216,7 +239,7 @@ export const articles = [
       <p>Essas reações variam de apoio unânime no círculo conservador a divisões em esferas liberais, onde alguns justificaram o assassinato, contrastando com apelos à não-violência de Kirk.</p>
 
       <h2>Tributos nas Redes Sociais</h2>
-      <p>A plataforma X foi epicentro de homenagens pessoais, com hashtags como #WeAreCharlieKirk e #RIPCharlieKirk trending. Posts incluíam vídeos emocionais, citações e chamadas para continuar seu ativismo:</p>
+      <p>A plataforma X foi epicentro de homenagens pessoais, com hashtags como #WeAreCharlieKirk e #RIPCharlieKirk trending. Posts incluíram vídeos emocionais, citações e chamadas para continuar seu ativismo:</p>
       <ul>
         <li><strong>Compartilhamentos Pessoais</strong>: Usuários compartilharam histórias de transformação, como uma mulher que creditou Kirk por mudar sua vida. Muitos postaram vídeos de vigils e tributos musicais, incluindo uma canção de Ed Sheeran adaptada.</li>
         <li><strong>Impacto Global e Críticas</strong>: Posts destacaram tributos internacionais, como o Haka neozelandês e murais israelenses. Alguns criticaram divisões familiares ou reações de esquerda, ecoando o apelo de Kirk à responsabilidade pessoal.</li>
