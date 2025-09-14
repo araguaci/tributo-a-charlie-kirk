@@ -1,9 +1,10 @@
 import { Link, NavLink } from "react-router-dom";
-import { Flag } from "lucide-react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFlagUsa, faHome, faUser, faNewspaper, faQuoteLeft, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
   const navLinkClass = ({ isActive }: { isActive: boolean }) =>
-    `text-sm font-medium transition-colors hover:text-primary ${
+    `text-sm font-medium transition-colors hover:text-primary flex items-center gap-2 ${
       isActive ? "text-primary" : "text-muted-foreground"
     }`;
 
@@ -11,26 +12,31 @@ const Header = () => {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-14 items-center">
         <Link to="/" className="mr-6 flex items-center space-x-2">
-          <Flag className="h-6 w-6 text-stars-blue" />
+          <FontAwesomeIcon icon={faFlagUsa} className="h-6 w-6 text-stars-blue" />
           <span className="font-bold sm:inline-block">
             Homenagem a Charlie Kirk
           </span>
         </Link>
         <nav className="flex items-center space-x-4 lg:space-x-6">
           <NavLink to="/" className={navLinkClass}>
-            Home
+            <FontAwesomeIcon icon={faHome} className="h-4 w-4" />
+            <span>Home</span>
           </NavLink>
           <NavLink to="/sobre" className={navLinkClass}>
-            Sobre Kirk
+            <FontAwesomeIcon icon={faUser} className="h-4 w-4" />
+            <span>Sobre Kirk</span>
           </NavLink>
           <NavLink to="/artigos" className={navLinkClass}>
-            Artigos
+            <FontAwesomeIcon icon={faNewspaper} className="h-4 w-4" />
+            <span>Artigos</span>
           </NavLink>
           <NavLink to="/citacoes" className={navLinkClass}>
-            Citações
+            <FontAwesomeIcon icon={faQuoteLeft} className="h-4 w-4" />
+            <span>Citações</span>
           </NavLink>
           <NavLink to="/contato" className={navLinkClass}>
-            Contato
+            <FontAwesomeIcon icon={faEnvelope} className="h-4 w-4" />
+            <span>Contato</span>
           </NavLink>
         </nav>
       </div>

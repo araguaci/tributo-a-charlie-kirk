@@ -1,19 +1,21 @@
 import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBullhorn, faUniversity, faHandshake, faCalendarAlt, faStar } from '@fortawesome/free-solid-svg-icons';
 
 const timelineData = [
-    { year: "2010", title: "Voluntariado na campanha de Mark Kirk", description: "Voluntariou para a campanha bem-sucedida do senador dos EUA Mark Kirk, demonstrando interesse precoce em política." },
-    { year: "2011", title: "Ensaio para o Breitbart News", description: "Escreveu um ensaio alegando viés liberal em livros didáticos do ensino médio, que lhe rendeu uma aparição na Fox Business." },
-    { year: "2012", title: "Fundação da TPUSA", description: "Aos 18 anos, após ser rejeitado por West Point e abandonar a faculdade, co-fundou a Turning Point USA para rivalizar com grupos liberais em campi." },
-    { year: "2012", title: "Primeiro Financiamento", description: "Conheceu e persuadiu Foster Friess, um doador republicano, a financiar a organização, iniciando sua ascensão." },
-    { year: "2016", title: "Alinhamento com Trump", description: "Kirk tornou-se assistente de campanha de Donald Trump Jr., cimentando seu apoio e influência no movimento MAGA." },
-    { year: "2016", title: "Lançamento do Professor Watchlist", description: "A TPUSA lançou sua controversa 'lista de observação' para expor o que considerava viés liberal na academia." },
-    { year: "2019", title: "Lançamento da Turning Point Action", description: "Fundou o braço de ativismo político da TPUSA para mobilizar eleitores e intensificar a influência política." },
-    { year: "2020", title: "Lançamento do Podcast", description: "Começou a apresentar 'The Charlie Kirk Show', um programa de rádio diário que rapidamente alcançou milhões de downloads." },
-    { year: "2021", title: "Lançamento do School Board Watchlist", description: "Expandiu a estratégia de 'watchlists' para o sistema de ensino K-12, visando conselhos escolares." },
-    { year: "2024", title: "Influência Eleitoral", description: "A TPUSA foi creditada por impulsionar o apoio da Geração Z a Trump, contribuindo para a vitória no Arizona." },
-    { year: "2025", title: "Morte", description: "Charlie Kirk é baleado e morto enquanto falava em um evento da TPUSA na Universidade do Vale de Utah." },
+    { year: "2010", title: "Voluntariado na campanha de Mark Kirk", description: "Voluntariou para a campanha bem-sucedida do senador dos EUA Mark Kirk, demonstrando interesse precoce em política.", icon: faHandshake },
+    { year: "2011", title: "Ensaio para o Breitbart News", description: "Escreveu um ensaio alegando viés liberal em livros didáticos do ensino médio, que lhe rendeu uma aparição na Fox Business.", icon: faBullhorn },
+    { year: "2012", title: "Fundação da TPUSA", description: "Aos 18 anos, após ser rejeitado por West Point e abandonar a faculdade, co-fundou a Turning Point USA para rivalizar com grupos liberais em campi.", icon: faUniversity },
+    { year: "2012", title: "Primeiro Financiamento", description: "Conheceu e persuadiu Foster Friess, um doador republicano, a financiar a organização, iniciando sua ascensão.", icon: faHandshake },
+    { year: "2016", title: "Alinhamento com Trump", description: "Kirk tornou-se assistente de campanha de Donald Trump Jr., cimentando seu apoio e influência no movimento MAGA.", icon: faHandshake },
+    { year: "2016", title: "Lançamento do Professor Watchlist", description: "A TPUSA lançou sua controversa 'lista de observação' para expor o que considerava viés liberal na academia.", icon: faBullhorn },
+    { year: "2019", title: "Lançamento da Turning Point Action", description: "Fundou o braço de ativismo político da TPUSA para mobilizar eleitores e intensificar a influência política.", icon: faBullhorn },
+    { year: "2020", title: "Lançamento do Podcast", description: "Começou a apresentar 'The Charlie Kirk Show', um programa de rádio diário que rapidamente alcançou milhões de downloads.", icon: faBullhorn },
+    { year: "2021", title: "Lançamento do School Board Watchlist", description: "Expandiu a estratégia de 'watchlists' para o sistema de ensino K-12, visando conselhos escolares.", icon: faBullhorn },
+    { year: "2024", title: "Influência Eleitoral", description: "A TPUSA foi creditada por impulsionar o apoio da Geração Z a Trump, contribuindo para a vitória no Arizona.", icon: faStar },
+    { year: "2025", title: "Morte", description: "Charlie Kirk é baleado e morto enquanto falava em um evento da TPUSA na Universidade do Vale de Utah.", icon: faStar },
 ];
 
 const Sobre = () => {
@@ -24,7 +26,6 @@ const Sobre = () => {
         Conheça a trajetória, os princípios e o impacto de Charlie Kirk, uma das vozes mais influentes do conservadorismo jovem nos Estados Unidos.
       </p>
 
-      {/* Imagem de Charlie Kirk */}
       <div className="flex justify-center mb-12">
         <img
           src="/CharlieKirk.jpg"
@@ -36,7 +37,10 @@ const Sobre = () => {
       <div className="grid grid-cols-1 gap-8 mb-12">
         <Card>
           <CardHeader>
-            <CardTitle className="text-2xl font-semibold text-american-sunset">O Catalisador do Ativismo Juvenil</CardTitle>
+            <CardTitle className="text-2xl font-semibold text-american-sunset flex items-center gap-3">
+              <FontAwesomeIcon icon={faBullhorn} className="h-6 w-6" />
+              <span>O Catalisador do Ativismo Juvenil</span>
+            </CardTitle>
           </CardHeader>
           <CardContent className="text-lg text-foreground leading-relaxed space-y-4">
             <p>
@@ -50,7 +54,10 @@ const Sobre = () => {
 
         <Card>
           <CardHeader>
-            <CardTitle className="text-2xl font-semibold text-american-sunset">A Construção da Turning Point USA (TPUSA)</CardTitle>
+            <CardTitle className="text-2xl font-semibold text-american-sunset flex items-center gap-3">
+              <FontAwesomeIcon icon={faUniversity} className="h-6 w-6" />
+              <span>A Construção da Turning Point USA (TPUSA)</span>
+            </CardTitle>
           </CardHeader>
           <CardContent className="text-lg text-foreground leading-relaxed space-y-4">
             <p>
@@ -64,7 +71,10 @@ const Sobre = () => {
 
         <Card>
           <CardHeader>
-            <CardTitle className="text-2xl font-semibold text-american-sunset">O Alinhamento com o Movimento Trump</CardTitle>
+            <CardTitle className="text-2xl font-semibold text-american-sunset flex items-center gap-3">
+              <FontAwesomeIcon icon={faHandshake} className="h-6 w-6" />
+              <span>O Alinhamento com o Movimento Trump</span>
+            </CardTitle>
           </CardHeader>
           <CardContent className="text-lg text-foreground leading-relaxed space-y-4">
             <p>
@@ -91,7 +101,10 @@ const Sobre = () => {
               <h1 className="mx-auto font-semibold text-md text-white">{item.year}</h1>
             </div>
             <div className="order-1 bg-card rounded-lg shadow-xl w-full md:w-5/12 px-6 py-4">
-              <h3 className="font-bold text-american-sunset text-lg mb-2">{item.title}</h3>
+              <h3 className="font-bold text-american-sunset text-lg mb-2 flex items-center gap-2">
+                <FontAwesomeIcon icon={item.icon} className="h-4 w-4" />
+                <span>{item.title}</span>
+              </h3>
               <p className="text-sm leading-snug tracking-wide text-muted-foreground">{item.description}</p>
             </div>
           </div>

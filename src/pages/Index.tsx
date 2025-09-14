@@ -1,16 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { quotes, articles } from '@/data/kirkData';
+import { articles } from '@/data/kirkData';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { homenagens } from "@/data/homenagensData";
 import HomenagemCard from "@/components/HomenagemCard";
 import FeaturedQuotes from "@/components/FeaturedQuotes";
-import { Twitter, BookOpen, MessageCircle } from "lucide-react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faNewspaper, faAddressCard, faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
 
 const Index = () => {
-  const featuredQuotes = quotes.slice(0, 3); // Pegar as 3 primeiras citações
-  const featuredArticles = articles.slice(0, 2); // Pegar os 2 primeiros artigos
+  const featuredArticles = articles.slice(0, 2);
 
   return (
     <div className="container mx-auto max-w-6xl py-12 px-4">
@@ -25,11 +25,13 @@ const Index = () => {
         <div className="flex justify-center space-x-4">
           <Link to="/artigos">
             <Button size="lg" className="bg-american-sunset hover:bg-american-sunset/90 text-white">
+              <FontAwesomeIcon icon={faNewspaper} className="mr-2 h-4 w-4" />
               Ver Artigos
             </Button>
           </Link>
           <Link to="/citacoes">
             <Button size="lg" variant="outline">
+              <FontAwesomeIcon icon={faQuoteLeft} className="mr-2 h-4 w-4" />
               Ver Citações
             </Button>
           </Link>
@@ -67,6 +69,7 @@ const Index = () => {
         </p>
         <Link to="/sobre">
           <Button size="lg" className="bg-stars-blue hover:bg-stars-blue/90 text-white">
+            <FontAwesomeIcon icon={faAddressCard} className="mr-2 h-4 w-4" />
             Sobre Charlie Kirk
           </Button>
         </Link>

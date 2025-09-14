@@ -2,8 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { articles } from '@/data/kirkData';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle, CardFooter } from '@/components/ui/card';
-import { Button } from '@/components/ui/button'; // Importar o componente Button
-import { Twitter } from 'lucide-react'; // Importar o ícone do Twitter
+import { Button } from '@/components/ui/button';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faXTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faNewspaper } from '@fortawesome/free-solid-svg-icons';
 
 const Artigos = () => {
   return (
@@ -18,7 +20,10 @@ const Artigos = () => {
           <Link to={`/artigos/${article.slug}`} key={article.slug}>
             <Card className="h-full flex flex-col hover:shadow-lg transition-shadow duration-300">
               <CardHeader>
-                <CardTitle className="text-xl font-semibold text-stars-blue">{article.title}</CardTitle>
+                <CardTitle className="text-xl font-semibold text-stars-blue flex items-center gap-3">
+                  <FontAwesomeIcon icon={faNewspaper} className="h-5 w-5 text-american-sunset" />
+                  <span>{article.title}</span>
+                </CardTitle>
                 <CardDescription>{article.summary}</CardDescription>
               </CardHeader>
               <CardContent className="flex-grow">
@@ -36,7 +41,7 @@ const Artigos = () => {
                   }}
                   aria-label="Compartilhar no X"
                 >
-                  <Twitter className="h-4 w-4" />
+                  <FontAwesomeIcon icon={faXTwitter} className="h-4 w-4" />
                 </Button>
               </CardFooter>
             </Card>
