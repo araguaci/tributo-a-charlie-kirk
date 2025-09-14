@@ -195,7 +195,25 @@ export const articles = [
       <p>Ele frequentemente desafiava seus ouvintes a não se curvarem às pressões culturais ou políticas, mas a se manterem firmes em suas convicções, baseando suas ações e pensamentos em uma compreensão clara do que é certo e verdadeiro. Essa postura era central para sua mensagem de empoderamento da juventude conservadora, incentivando-os a serem faróis de clareza em um mundo complexo.</p>
     `,
   },
-  { slug: "linha-tempo-carreira", title: "Do Estudante ao Influenciador: Linha do Tempo da Carreira", summary: "Uma cronologia detalhada de sua ascensão como uma das vozes mais proeminentes do conservadorismo.", content: "<p>Em breve...</p>" },
+  { slug: "linha-tempo-carreira", title: "Do Estudante ao Influenciador: Linha do Tempo da Carreira", summary: "Uma cronologia detalhada de sua ascensão como uma das vozes mais proeminentes do conservadorismo.", content: `
+      <p class="mb-4">A trajetória de Charlie Kirk é um exemplo notável de como a paixão e a dedicação podem transformar um estudante em um influenciador nacional e global. Sua carreira foi marcada por momentos decisivos que moldaram o movimento conservador jovem.</p>
+
+      <h3 class="text-2xl font-bold mt-8 mb-4 text-stars-blue">Cronologia de uma Ascensão</h3>
+      <ul class="list-disc list-inside space-y-4 mb-6">
+        <li><strong>2012: Fundação da Turning Point USA</strong><br/>Ainda como estudante, Charlie Kirk fundou a Turning Point USA (TPUSA). O objetivo era identificar, educar, treinar e organizar estudantes para promover os princípios de liberdade, governo limitado e livre mercado. A organização rapidamente cresceu, estabelecendo milhares de capítulos em universidades e escolas secundárias americanas.</li>
+        <li><strong>2015: Primeiro Debate Nacional</strong><br/>Kirk começou a ganhar destaque nacional ao participar de debates públicos com líderes progressistas. Sua eloquência, preparo e capacidade de articular argumentos conservadores o tornaram uma figura proeminente no cenário político e midiático.</li>
+        <li><strong>2018: Lançamento de "Campus Battlefield"</strong><br/>Publicou seu livro "Campus Battlefield", que expôs o que ele via como o viés ideológico predominante nas universidades e defendeu a liberdade acadêmica e a diversidade de ideias nos campi. O livro se tornou um guia para jovens conservadores.</li>
+        <li><strong>2020: The Charlie Kirk Show alcança 1 Milhão de Ouvintes</strong><br/>Seu podcast diário, "The Charlie Kirk Show", consolidou sua influência nacional, alcançando mais de um milhão de ouvintes. Através do podcast, ele discutia notícias, política e cultura de uma perspectiva conservadora, engajando uma vasta audiência.</li>
+        <li><strong>2023: Expansão Global da TPUSA</strong><br/>A visão de Kirk transcendeu as fronteiras americanas, com a TPUSA expandindo-se internacionalmente. Capítulos foram criados em diversos países, inspirando jovens fora dos EUA a defenderem os mesmos princípios de liberdade e conservadorismo.</li>
+      </ul>
+
+      <blockquote class="border-l-4 border-american-sunset pl-4 italic my-6">
+        "Não se trata de ser o mais inteligente na sala, mas de ser o mais corajoso para falar a verdade."
+      </blockquote>
+
+      <p>A carreira de Charlie Kirk é um testemunho de sua dedicação em capacitar a próxima geração de líderes conservadores, deixando um legado duradouro no ativismo juvenil.</p>
+    `,
+  },
   {
     slug: "15-frases-famosas-charlie-kirk",
     title: "15 Frases Famosas de Charlie Kirk Sobre Conservadorismo",
