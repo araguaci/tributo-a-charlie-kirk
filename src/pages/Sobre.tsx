@@ -9,6 +9,15 @@ const Sobre = () => {
         Conheça a trajetória, os princípios e o impacto de Charlie Kirk, uma das vozes mais influentes do conservadorismo jovem nos Estados Unidos.
       </p>
 
+      {/* Imagem de Charlie Kirk */}
+      <div className="flex justify-center mb-12">
+        <img
+          src="/CharlieKirk.jpg"
+          alt="Charlie Kirk"
+          className="rounded-lg shadow-lg max-w-full h-auto md:max-w-md lg:max-w-lg"
+        />
+      </div>
+
       <div className="grid grid-cols-1 gap-8">
         <Card className="p-6">
           <CardHeader>
