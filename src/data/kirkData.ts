@@ -139,7 +139,22 @@ export const articles = [
       <p>O impacto de Kirk pode ser visto na crescente presença de jovens conservadores no debate público e na formação de uma nova geração de líderes que não têm medo de defender suas convicções. Seu trabalho com a TPUSA se tornou um modelo para o ativismo juvenil, mostrando que a paixão e a organização podem transformar o cenário político e cultural.</p>
     `,
   },
-  { slug: "valor-vida-familia", title: "O Valor da Vida e da Família em Sua Obra", summary: "Uma reflexão sobre os pilares conservadores da vida e da família em seus ensinamentos.", content: "<p>Em breve...</p>" },
+  {
+    slug: "valor-vida-familia",
+    title: "O Valor da Vida e da Família em Sua Obra",
+    summary: "Uma reflexão sobre os pilares conservadores da vida e da família em seus ensinamentos.",
+    content: `
+      <p class="mb-4">Charlie Kirk frequentemente enfatizava a importância da família tradicional e da santidade da vida como fundamentos essenciais para uma sociedade próspera e moral. Para ele, a família nuclear era a unidade básica e mais importante da civilização, responsável pela transmissão de valores, educação e estabilidade social.</p>
+      
+      <p class="mb-4">Sua defesa da vida estendia-se desde a concepção, posicionando-se firmemente contra o aborto e argumentando que a proteção dos mais vulneráveis é um dever moral fundamental. Kirk via esses princípios não apenas como questões religiosas, mas como pilares lógicos e necessários para a saúde e a continuidade de qualquer sociedade.</p>
+
+      <blockquote class="border-l-4 border-stars-blue pl-4 italic my-6">
+        "A família é a primeira instituição de liberdade. Se a família falha, a sociedade falha."
+      </blockquote>
+
+      <p>Ele acreditava que o enfraquecimento desses valores levava à desintegração social e à perda de identidade cultural, e por isso dedicou grande parte de sua plataforma a promover e defender a estrutura familiar e o respeito pela vida em todas as suas fases.</p>
+    `,
+  },
   { slug: "construir-movimento", title: "Como Construir um Movimento do Zero: Lições Práticas", summary: "Um guia passo a passo inspirado na jornada de Charlie Kirk com a TPUSA.", content: "<p>Em breve...</p>" },
   { slug: "principios-inabalaveis", title: "A Importância de Princípios Inabaláveis", summary: "Por que Kirk acreditava que princípios firmes são essenciais em tempos de mudança.", content: "<p>Em breve...</p>" },
   { slug: "linha-tempo-carreira", title: "Do Estudante ao Influenciador: Linha do Tempo da Carreira", summary: "Uma cronologia detalhada de sua ascensão como uma das vozes mais proeminentes do conservadorismo.", content: "<p>Em breve...</p>" },
