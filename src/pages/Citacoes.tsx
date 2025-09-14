@@ -1,6 +1,8 @@
 import React from 'react';
 import { quotes } from '@/data/kirkData';
 import { Card, CardContent, CardHeader, CardTitle, CardFooter } from '@/components/ui/card';
+import { Button } from '@/components/ui/button'; // Importar o componente Button
+import { Twitter } from 'lucide-react'; // Importar o ícone do Twitter
 
 const Citacoes = () => {
   return (
@@ -18,8 +20,20 @@ const Citacoes = () => {
                 "{quote}"
               </blockquote>
             </CardContent>
-            <CardFooter className="p-0 pt-4 text-right text-sm text-muted-foreground">
-              — Charlie Kirk
+            <CardFooter className="p-0 pt-4 flex justify-between items-center"> {/* Ajustado para alinhar o texto e o botão */}
+              <span className="text-sm text-muted-foreground">— Charlie Kirk</span>
+              <Button
+                variant="ghost"
+                size="icon"
+                onClick={(e) => {
+                  e.preventDefault(); // Previne a navegação do card se ele for um link
+                  const tweetText = encodeURIComponent(`"${quote}" — Charlie Kirk #CharlieKirk #Citações`);
+                  window.open(`https://twitter.com/intent/tweet?text=${tweetText}`, '_blank');
+                }}
+                aria-label="Compartilhar no X"
+              >
+                <Twitter className="h-4 w-4" />
+              </Button>
             </CardFooter>
           </Card>
         ))}
