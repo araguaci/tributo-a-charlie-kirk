@@ -1,6 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFlagUsa, faHome, faUser, faNewspaper, faQuoteLeft, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faHome, faUser, faNewspaper, faQuoteLeft, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import BrandIcon from "./BrandIcon";
 
 const Header = () => {
   const navLinkClass = ({ isActive }: { isActive: boolean }) =>
@@ -12,7 +13,7 @@ const Header = () => {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-14 items-center">
         <Link to="/" className="mr-6 flex items-center space-x-2">
-          <FontAwesomeIcon icon={faFlagUsa} className="h-6 w-6 text-stars-blue" />
+          <BrandIcon className="h-6 w-6 text-primary" />
           <span className="font-bold sm:inline-block">
             Homenagem a Charlie Kirk
           </span>

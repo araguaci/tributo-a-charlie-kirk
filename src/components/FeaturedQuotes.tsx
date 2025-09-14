@@ -14,7 +14,7 @@ const FeaturedQuotes = () => {
 
   return (
     <section className="mb-16">
-      <h2 className="text-3xl font-bold text-center text-stars-blue mb-8">Citações em Destaque</h2>
+      <h2 className="text-3xl font-bold text-center text-primary mb-8">Citações em Destaque</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {featured.map((quote, index) => (
           <Card key={index} className="h-full flex flex-col justify-between p-6 bg-card hover:shadow-lg transition-shadow duration-300">

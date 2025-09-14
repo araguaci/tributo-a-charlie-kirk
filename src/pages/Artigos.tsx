@@ -10,7 +10,7 @@ import { faNewspaper } from '@fortawesome/free-solid-svg-icons';
 const Artigos = () => {
   return (
     <div className="container mx-auto max-w-4xl py-12 px-4">
-      <h1 className="text-4xl font-bold text-center mb-8 text-stars-blue">Artigos e Análises</h1>
+      <h1 className="text-4xl font-bold text-center mb-8 text-primary">Artigos e Análises</h1>
       <p className="text-center text-lg text-muted-foreground mb-12">
         Explore uma coleção de artigos e análises aprofundadas sobre a vida, o legado e as ideias de Charlie Kirk.
       </p>
@@ -20,8 +20,8 @@ const Artigos = () => {
           <Link to={`/artigos/${article.slug}`} key={article.slug}>
             <Card className="h-full flex flex-col hover:shadow-lg transition-shadow duration-300">
               <CardHeader>
-                <CardTitle className="text-xl font-semibold text-stars-blue flex items-center gap-3">
-                  <FontAwesomeIcon icon={faNewspaper} className="h-5 w-5 text-american-sunset" />
+                <CardTitle className="text-xl font-semibold text-primary flex items-center gap-3">
+                  <FontAwesomeIcon icon={faNewspaper} className="h-5 w-5 text-accent" />
                   <span>{article.title}</span>
                 </CardTitle>
                 <CardDescription>{article.summary}</CardDescription>

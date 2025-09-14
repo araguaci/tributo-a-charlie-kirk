@@ -18,11 +18,16 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ["'Open Sans'", "sans-serif"],
+        heading: ["'Montserrat'", "sans-serif"],
+      },
       colors: {
-        'stars-blue': '#0A3161',
-        'stripes-red': '#B22234',
-        'liberty-sky': '#6497B1',
-        'american-sunset': '#E6B327',
+        'carmesim-uniao': '#BF0A30',
+        'alvorada-liberdade': '#F5F5F5',
+        'anil-patriota': '#002868',
+        'estrela-dourada': '#FFD700',
+        'concreto-nacao': '#8C8C8C',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

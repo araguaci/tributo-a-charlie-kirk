@@ -17,7 +17,7 @@ const ContactModalForm = () => {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button className="w-full max-w-xs mx-auto bg-stars-blue hover:bg-stars-blue/90">
+        <Button className="w-full max-w-xs mx-auto bg-primary hover:bg-primary/90">
           Abrir Formulário de Contato
         </Button>
       </DialogTrigger>

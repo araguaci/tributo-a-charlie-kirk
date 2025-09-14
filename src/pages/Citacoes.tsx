@@ -9,7 +9,7 @@ import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
 const Citacoes = () => {
   return (
     <div className="container mx-auto max-w-4xl py-12 px-4">
-      <h1 className="text-4xl font-bold text-center mb-8 text-stars-blue">Citações Inspiradoras</h1>
+      <h1 className="text-4xl font-bold text-center mb-8 text-primary">Citações Inspiradoras</h1>
       <p className="text-center text-lg text-muted-foreground mb-12">
         Uma coleção das frases mais impactantes e memoráveis de Charlie Kirk, que resumem sua visão sobre liberdade, conservadorismo e a cultura.
       </p>
