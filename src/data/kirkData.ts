@@ -1,3 +1,21 @@
+export const quotes = [
+  "O socialismo nunca funcionou e nunca funcionará, porque é uma ideia baseada na inveja e na ignorância.",
+  "A liberdade de expressão é a base de uma sociedade livre. Se não podemos debater ideias, não podemos encontrar a verdade.",
+  "O conservadorismo é o novo contra-cultura.",
+  "Não deixe que a universidade tire de você o que seus pais passaram 18 anos para colocar em você.",
+  "A América é a maior nação que já existiu na face da Terra. Ponto final.",
+  "A vitimização é a nova moeda da esquerda.",
+  "Se você quer mudar o mundo, comece defendendo os valores que construíram a civilização ocidental.",
+  "O trabalho duro e a meritocracia são os motores do progresso humano, não a redistribuição forçada.",
+  "A família nuclear é a unidade mais importante da sociedade.",
+  "A verdade não tem medo de ser questionada.",
+  "Seja um guerreiro feliz. Lute por aquilo em que acredita com um sorriso no rosto.",
+  "O governo grande não é a solução; na maioria das vezes, é o problema.",
+  "A liberdade não é gratuita. Ela é conquistada e defendida por cada geração.",
+  "A Bíblia é o livro mais importante já escrito e a base para uma sociedade justa.",
+  "Não se desculpe por ser um patriota. Ame seu país sem vergonha.",
+];
+
 export const articles = [
   {
     slug: "7-ensinamentos-ativismo-jovem",
@@ -125,22 +143,16 @@ export const articles = [
   { slug: "construir-movimento", title: "Como Construir um Movimento do Zero: Lições Práticas", summary: "Um guia passo a passo inspirado na jornada de Charlie Kirk com a TPUSA.", content: "<p>Em breve...</p>" },
   { slug: "principios-inabalaveis", title: "A Importância de Princípios Inabaláveis", summary: "Por que Kirk acreditava que princípios firmes são essenciais em tempos de mudança.", content: "<p>Em breve...</p>" },
   { slug: "linha-tempo-carreira", title: "Do Estudante ao Influenciador: Linha do Tempo da Carreira", summary: "Uma cronologia detalhada de sua ascensão como uma das vozes mais proeminentes do conservadorismo.", content: "<p>Em breve...</p>" },
-];
-
-export const quotes = [
-  "O socialismo nunca funcionou e nunca funcionará, porque é uma ideia baseada na inveja e na ignorância.",
-  "A liberdade de expressão é a base de uma sociedade livre. Se não podemos debater ideias, não podemos encontrar a verdade.",
-  "O conservadorismo é o novo contra-cultura.",
-  "Não deixe que a universidade tire de você o que seus pais passaram 18 anos para colocar em você.",
-  "A América é a maior nação que já existiu na face da Terra. Ponto final.",
-  "A vitimização é a nova moeda da esquerda.",
-  "Se você quer mudar o mundo, comece defendendo os valores que construíram a civilização ocidental.",
-  "O trabalho duro e a meritocracia são os motores do progresso humano, não a redistribuição forçada.",
-  "A família nuclear é a unidade mais importante da sociedade.",
-  "A verdade não tem medo de ser questionada.",
-  "Seja um guerreiro feliz. Lute por aquilo em que acredita com um sorriso no rosto.",
-  "O governo grande não é a solução; na maioria das vezes, é o problema.",
-  "A liberdade não é gratuita. Ela é conquistada e defendida por cada geração.",
-  "A Bíblia é o livro mais importante já escrito e a base para uma sociedade justa.",
-  "Não se desculpe por ser um patriota. Ame seu país sem vergonha.",
+  {
+    slug: "15-frases-famosas-charlie-kirk",
+    title: "15 Frases Famosas de Charlie Kirk Sobre Conservadorismo",
+    summary: "Um compilado de frases impactantes que resumem a visão política, ética e social do ativista.",
+    content: `
+      <p class="mb-4">Charlie Kirk era conhecido por sua retórica direta e suas frases de efeito que capturavam a essência de suas convicções conservadoras. Aqui estão 15 de suas citações mais famosas que ressoaram com milhões de pessoas e continuam a inspirar o movimento.</p>
+      <ul class="list-disc list-inside space-y-2 mb-6">
+        ${quotes.map(quote => `<li>"${quote}"</li>`).join('')}
+      </ul>
+      <p>Essas frases não apenas comunicavam suas ideias, mas também serviam como um chamado à ação para aqueles que compartilhavam de sua visão de mundo.</p>
+    `,
+  },
 ];
