@@ -30,7 +30,29 @@ export const articles = [
     slug: "discursos-marcantes",
     title: "“Prove Que Estou Errado”: Os Discursos Mais Marcantes de Charlie Kirk",
     summary: "Uma seleção de discursos que definiram sua carreira, desafiando o status quo em campi universitários por todo o país.",
-    content: "<p>Conteúdo do artigo sobre discursos marcantes...</p>",
+    content: `
+      <p class="mb-4">Uma das marcas registradas de Charlie Kirk era sua disposição para entrar no "campo de batalha" das ideias, especialmente em campi universitários hostis. Sua série de eventos "Prove Que Estou Errado" tornou-se lendária, convidando estudantes a desafiar abertamente suas posições conservadoras. Esses debates não apenas aprimoraram seus argumentos, mas também inspiraram inúmeros jovens a defenderem suas próprias crenças com confiança.</p>
+      
+      <h3 class="text-2xl font-bold mt-8 mb-4 text-stars-blue">O Discurso na Universidade de Ohio</h3>
+      <p class="mb-4">Um dos confrontos mais memoráveis ocorreu na Universidade de Ohio, onde Kirk enfrentou uma multidão cética com uma mistura de fatos, humor e convicção inabalável. Ele abordou temas como o socialismo, o privilégio branco e a liberdade de expressão, transformando um ambiente potencialmente hostil em um diálogo produtivo.</p>
+      
+      <div class="aspect-w-16 aspect-h-9 my-6">
+        <iframe 
+          src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+          title="YouTube video player" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen
+          class="rounded-lg shadow-lg"
+        ></iframe>
+      </div>
+
+      <blockquote class="border-l-4 border-stars-blue pl-4 italic my-6">
+        "A melhor maneira de testar suas crenças não é em uma câmara de eco, mas no fogo do debate. Se você não consegue defender sua ideia, talvez não seja uma boa ideia."
+      </blockquote>
+
+      <p>Este e outros discursos semelhantes não eram apenas sobre vencer um argumento; eram sobre demonstrar a importância do diálogo aberto e da coragem intelectual. Eles mostraram a uma geração que é possível manter-se firme em seus princípios, mesmo quando se é a minoria na sala.</p>
+    `,
   },
   // Adicionando placeholders para os outros artigos
   { slug: "podcasts-populares", title: "Os Podcasts Mais Populares do Charlie Kirk Show", summary: "Uma lista dos episódios mais ouvidos que ressoaram com a audiência jovem.", content: "<p>Em breve...</p>" },
