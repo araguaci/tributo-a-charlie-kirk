@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/com
 import { Button } from '@/components/ui/button';
 import { homenagens } from "@/data/homenagensData";
 import HomenagemCard from "@/components/HomenagemCard";
+import FeaturedQuotes from "@/components/FeaturedQuotes";
 import { Twitter, BookOpen, MessageCircle } from "lucide-react";
 
 const Index = () => {
@@ -36,21 +37,7 @@ const Index = () => {
       </section>
 
       {/* Featured Quotes Section */}
-      <section className="mb-16">
-        <h2 className="text-3xl font-bold text-center text-stars-blue mb-8">Citações em Destaque</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {featuredQuotes.map((quote, index) => (
-            <Card key={index} className="p-6 flex flex-col justify-between hover:shadow-lg transition-shadow duration-300">
-              <CardContent className="p-0">
-                <blockquote className="text-lg italic leading-relaxed text-foreground">
-                  "{quote}"
-                </blockquote>
-              </CardContent>
-              <p className="text-right text-sm text-muted-foreground mt-4">— Charlie Kirk</p>
-            </Card>
-          ))}
-        </div>
-      </section>
+      <FeaturedQuotes />
 
       {/* Featured Articles Section */}
       <section className="mb-16">
