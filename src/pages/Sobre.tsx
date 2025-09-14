@@ -2,12 +2,11 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useState } from "react";
 
 const timelineEvents = [
-  { year: 1993, title: "Nascimento", description: "Charlie Kirk nasceu em Arlington Heights, Illinois." },
-  { year: 2012, title: "Fundação da Turning Point USA", description: "Aos 18 anos, Kirk funda a TPUSA para organizar estudantes conservadores em campi universitários." },
-  { year: 2016, title: "The Charlie Kirk Show", description: "Lança seu podcast diário, que rapidamente se torna um dos programas conservadores mais populares." },
-  { year: 2019, title: "Publicação de 'Campus Battlefield'", description: "Escreve o livro detalhando como a esquerda domina as universidades americanas e como os conservadores podem revidar." },
-  { year: 2020, title: "Expansão Nacional", description: "A TPUSA atinge um alcance significativo, com presença em mais de 2.500 campi e milhões de seguidores online." },
-  { year: 2025, title: "Falecimento", description: "Charlie Kirk falece em 10 de setembro de 2025, deixando um legado duradouro de ativismo e inspiração." },
+  { year: 2012, title: "Fundação da Turning Point USA", description: "Criada enquanto ainda era estudante, a TPUSA hoje possui milhares de capítulos em universidades americanas." },
+  { year: 2015, title: "Primeiro Debate Nacional", description: "Kirk enfrentou líderes progressistas em debates públicos, destacando-se pela eloquência e preparo." },
+  { year: 2018, title: "Lançamento de 'Campus Battlefield'", description: "Livro que expõe o viés ideológico nas universidades e defende a liberdade acadêmica." },
+  { year: 2020, title: "The Charlie Kirk Show alcança 1M de ouvintes", description: "O podcast diário consolida sua influência nacional." },
+  { year: 2023, title: "Expansão Global da TPUSA", description: "Capítulos internacionais são criados, inspirando jovens fora dos EUA." },
 ];
 
 const Sobre = () => {
@@ -19,9 +18,9 @@ const Sobre = () => {
 
   return (
     <div className="container mx-auto max-w-4xl py-12 px-4">
-      <h1 className="text-4xl font-bold text-center mb-8 text-stars-blue">O Legado de um Visionário</h1>
+      <h1 className="text-4xl font-bold text-center mb-8 text-stars-blue">O Legado de Liderança Juvenil de Charlie Kirk</h1>
       <p className="text-center text-lg text-muted-foreground mb-12">
-        Uma linha do tempo interativa destacando os marcos da vida e carreira de Charlie Kirk.
+        Charlie Kirk transformou sua paixão por princípios conservadores em um movimento global. Abaixo, uma linha do tempo interativa dos principais momentos de sua trajetória.
       </p>
       <div className="relative">
         <div className="absolute left-4 md:left-1/2 h-full w-0.5 bg-border -translate-x-1/2"></div>
@@ -84,6 +83,9 @@ const Sobre = () => {
           </div>
         ))}
       </div>
+      <p className="text-center text-xs text-muted-foreground mt-12">
+        © 2025 Homenagem a Charlie Kirk. Site não oficial, baseado em fontes públicas.
+      </p>
     </div>
   );
 };
