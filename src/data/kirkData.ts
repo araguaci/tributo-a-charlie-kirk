@@ -1,0 +1,55 @@
+export const articles = [
+  {
+    slug: "7-ensinamentos-ativismo-jovem",
+    title: "Os 7 Principais Ensinamentos de Charlie Kirk Sobre Ativismo Jovem",
+    summary: "Explore lições cruciais sobre como os jovens podem se engajar efetivamente na política e defender suas crenças.",
+    content: `
+      <p class="mb-4">Charlie Kirk dedicou sua vida a capacitar a próxima geração de líderes conservadores. Seu ativismo começou cedo e, através da Turning Point USA, ele criou uma plataforma para milhões de jovens. Aqui estão sete dos seus ensinamentos mais impactantes sobre o ativismo jovem:</p>
+      <ol class="list-decimal list-inside space-y-4 mb-6">
+        <li><strong>Comece Onde Você Está:</strong> Não espere por um grande palco. Comece em sua escola, universidade ou comunidade local. O impacto local gera ondas nacionais.</li>
+        <li><strong>Domine os Fatos:</strong> A paixão é importante, mas os fatos são sua munição. Estude, leia e esteja preparado para defender seus argumentos com dados e lógica.</li>
+        <li><strong>Use a Tecnologia a Seu Favor:</strong> As redes sociais e as plataformas digitais são o campo de batalha das ideias moderno. Aprenda a comunicar sua mensagem de forma clara e concisa.</li>
+        <li><strong>Construa uma Comunidade:</strong> Você não está sozinho. Encontre outros que compartilham seus valores e trabalhem juntos. A força está nos números e no apoio mútuo.</li>
+        <li><strong>Seja Ousado, Não Agressivo:</strong> Defenda suas crenças com coragem, mas faça-o com respeito. O objetivo é persuadir, não alienar.</li>
+        <li><strong>Entenda a Oposição:</strong> Para refutar um argumento, você precisa primeiro entendê-lo. Estude as ideias opostas para fortalecer sua própria posição.</li>
+        <li><strong>Nunca Desista:</strong> O caminho do ativismo é cheio de desafios e críticas. A perseverança é a chave para a mudança a longo prazo.</li>
+      </ol>
+      <blockquote class="border-l-4 border-stars-blue pl-4 italic my-4">
+        "A única coisa que a esquerda não consegue combater são jovens conservadores organizados, articulados e motivados."
+      </blockquote>
+      <p>Esses princípios não são apenas teóricos; eles foram a base sobre a qual a Turning Point USA foi construída, tornando-se uma das organizações de ativismo jovem mais influentes do país.</p>
+    `,
+  },
+  {
+    slug: "discursos-marcantes",
+    title: "“Prove Que Estou Errado”: Os Discursos Mais Marcantes de Charlie Kirk",
+    summary: "Uma seleção de discursos que definiram sua carreira, desafiando o status quo em campi universitários por todo o país.",
+    content: "<p>Conteúdo do artigo sobre discursos marcantes...</p>",
+  },
+  // Adicionando placeholders para os outros artigos
+  { slug: "podcasts-populares", title: "Os Podcasts Mais Populares do Charlie Kirk Show", summary: "Uma lista dos episódios mais ouvidos que ressoaram com a audiência jovem.", content: "<p>Em breve...</p>" },
+  { slug: "causas-sociais", title: "Causas Sociais Mais Defendidas Por Charlie Kirk", summary: "Uma análise das causas que ele defendia, da liberdade de expressão à santidade da vida.", content: "<p>Em breve...</p>" },
+  { slug: "legado-lideranca", title: "O Legado de Liderança Juvenil de Charlie Kirk", summary: "Como ele transformou o ativismo estudantil em uma força de influência nacional.", content: "<p>Em breve...</p>" },
+  { slug: "valor-vida-familia", title: "O Valor da Vida e da Família em Sua Obra", summary: "Uma reflexão sobre os pilares conservadores da vida e da família em seus ensinamentos.", content: "<p>Em breve...</p>" },
+  { slug: "construir-movimento", title: "Como Construir um Movimento do Zero: Lições Práticas", summary: "Um guia passo a passo inspirado na jornada de Charlie Kirk com a TPUSA.", content: "<p>Em breve...</p>" },
+  { slug: "principios-inabalaveis", title: "A Importância de Princípios Inabaláveis", summary: "Por que Kirk acreditava que princípios firmes são essenciais em tempos de mudança.", content: "<p>Em breve...</p>" },
+  { slug: "linha-tempo-carreira", title: "Do Estudante ao Influenciador: Linha do Tempo da Carreira", summary: "Uma cronologia detalhada de sua ascensão como uma das vozes mais proeminentes do conservadorismo.", content: "<p>Em breve...</p>" },
+];
+
+export const quotes = [
+  "O socialismo nunca funcionou e nunca funcionará, porque é uma ideia baseada na inveja e na ignorância.",
+  "A liberdade de expressão é a base de uma sociedade livre. Se não podemos debater ideias, não podemos encontrar a verdade.",
+  "O conservadorismo é o novo contra-cultura.",
+  "Não deixe que a universidade tire de você o que seus pais passaram 18 anos para colocar em você.",
+  "A América é a maior nação que já existiu na face da Terra. Ponto final.",
+  "A vitimização é a nova moeda da esquerda.",
+  "Se você quer mudar o mundo, comece defendendo os valores que construíram a civilização ocidental.",
+  "O trabalho duro e a meritocracia são os motores do progresso humano, não a redistribuição forçada.",
+  "A família nuclear é a unidade mais importante da sociedade.",
+  "A verdade não tem medo de ser questionada.",
+  "Seja um guerreiro feliz. Lute por aquilo em que acredita com um sorriso no rosto.",
+  "O governo grande não é a solução; na maioria das vezes, é o problema.",
+  "A liberdade não é gratuita. Ela é conquistada e defendida por cada geração.",
+  "A Bíblia é o livro mais importante já escrito e a base para uma sociedade justa.",
+  "Não se desculpe por ser um patriota. Ame seu país sem vergonha.",
+];

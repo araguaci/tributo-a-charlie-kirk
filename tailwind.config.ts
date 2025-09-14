@@ -19,6 +19,10 @@ export default {
     },
     extend: {
       colors: {
+        'stars-blue': '#0A3161',
+        'stripes-red': '#B22234',
+        'liberty-sky': '#6497B1',
+        'american-sunset': '#E6B327',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
