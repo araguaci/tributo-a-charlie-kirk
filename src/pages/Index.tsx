@@ -1,32 +1,85 @@
-import { Link } from "react-router-dom";
-import { Button } from "@/components/ui/button";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { quotes, articles } from '@/data/kirkData';
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
 
 const Index = () => {
+  const featuredQuotes = quotes.slice(0, 3); // Pegar as 3 primeiras citações
+  const featuredArticles = articles.slice(0, 2); // Pegar os 2 primeiros artigos
+
   return (
-    <div>
-      <section className="relative h-[60vh] flex items-center justify-center text-center text-white bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/placeholder.svg')" }}>
-        <div className="absolute inset-0 bg-black/50"></div>
-        <div className="relative z-10 p-4">
-          <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
-            Inspirando Gerações: O Legado de Charlie Kirk
-          </h1>
-          <p className="mt-4 text-lg md:text-xl max-w-3xl mx-auto">
-            Celebrando a vida e o impacto de um líder que dedicou sua voz à liberdade, ao conservadorismo e à próxima geração.
-          </p>
+    <div className="container mx-auto max-w-6xl py-12 px-4">
+      {/* Hero Section */}
+      <section className="text-center mb-16">
+        <h1 className="text-5xl font-extrabold text-stars-blue mb-6 leading-tight">
+          Charlie Kirk: Voz da Nova Geração Conservadora
+        </h1>
+        <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
+          Explore o legado, as ideias e o impacto de um dos mais influentes ativistas jovens da atualidade.
+        </p>
+        <div className="flex justify-center space-x-4">
+          <Link to="/artigos">
+            <Button size="lg" className="bg-american-sunset hover:bg-american-sunset/90 text-white">
+              Ver Artigos
+            </Button>
+          </Link>
+          <Link to="/citacoes">
+            <Button size="lg" variant="outline">
+              Ver Citações
+            </Button>
+          </Link>
         </div>
       </section>
 
-      <section className="py-16 bg-background">
-        <div className="container mx-auto max-w-4xl text-center">
-          <img src="/placeholder.svg" alt="Charlie Kirk" className="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-stars-blue" />
-          <h2 className="text-3xl font-bold text-stars-blue mb-4">Charlie Kirk (1993 – 2025)</h2>
-          <p className="text-muted-foreground leading-relaxed mb-8">
-            Nascido em 1993, Charlie Kirk emergiu como uma das vozes conservadoras mais influentes de sua geração. Em 2012, fundou a Turning Point USA, uma organização sem fins lucrativos que rapidamente se tornou um movimento nacional para jovens ativistas. Através de seu podcast, "The Charlie Kirk Show", e de inúmeros discursos em campi universitários, ele defendeu incansavelmente a liberdade de expressão, os valores cristãos e o excepcionalismo americano. Charlie faleceu em 10 de setembro de 2025, mas seu legado de inspirar jovens a se envolverem e lutarem por suas crenças continua vivo.
-          </p>
-          <Button asChild size="lg" className="bg-stripes-red hover:bg-stripes-red/90">
-            <Link to="/artigos">Explore Seus Ensinamentos</Link>
-          </Button>
+      {/* Featured Quotes Section */}
+      <section className="mb-16">
+        <h2 className="text-3xl font-bold text-center text-stars-blue mb-8">Citações em Destaque</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {featuredQuotes.map((quote, index) => (
+            <Card key={index} className="p-6 flex flex-col justify-between hover:shadow-lg transition-shadow duration-300">
+              <CardContent className="p-0">
+                <blockquote className="text-lg italic leading-relaxed text-foreground">
+                  "{quote}"
+                </blockquote>
+              </CardContent>
+              <p className="text-right text-sm text-muted-foreground mt-4">— Charlie Kirk</p>
+            </Card>
+          ))}
         </div>
+      </section>
+
+      {/* Featured Articles Section */}
+      <section className="mb-16">
+        <h2 className="text-3xl font-bold text-center text-stars-blue mb-8">Artigos Recentes</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {featuredArticles.map((article) => (
+            <Link to={`/artigos/${article.slug}`} key={article.slug}>
+              <Card className="h-full flex flex-col hover:shadow-lg transition-shadow duration-300">
+                <CardHeader>
+                  <CardTitle className="text-xl font-semibold text-stars-blue">{article.title}</CardTitle>
+                  <CardDescription>{article.summary}</CardDescription>
+                </CardHeader>
+                <CardContent className="flex-grow">
+                  <Button variant="link" className="p-0 h-auto">Leia Mais</Button>
+                </CardContent>
+              </Card>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      {/* Call to Action for About Page */}
+      <section className="text-center bg-american-sunset/10 p-10 rounded-lg">
+        <h2 className="text-3xl font-bold text-stars-blue mb-4">Conheça Mais Sobre Charlie Kirk</h2>
+        <p className="text-lg text-muted-foreground mb-6 max-w-2xl mx-auto">
+          Aprofunde-se na biografia, na trajetória e nos principais marcos da carreira de Charlie Kirk.
+        </p>
+        <Link to="/sobre">
+          <Button size="lg" className="bg-stars-blue hover:bg-stars-blue/90 text-white">
+            Sobre Charlie Kirk
+          </Button>
+        </Link>
       </section>
     </div>
   );
