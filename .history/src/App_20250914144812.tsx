@@ -11,8 +11,6 @@ import Artigos from "./pages/Artigos";
 import ArtigoDetalhe from "./pages/ArtigoDetalhe";
 import Citacoes from "./pages/Citacoes";
 import Contato from "./pages/Contato";
-import DesmontandoMentiras from "./pages/DesmontandoMentiras";
-import Memorial from "./pages/Memorial"; // Importar a nova página
 
 const queryClient = new QueryClient();
 
@@ -30,8 +28,6 @@ function App() {
               <Route path="/artigos" element={<Artigos />} />
               <Route path="/artigos/:slug" element={<ArtigoDetalhe />} />
               <Route path="/citacoes" element={<Citacoes />} />
-              <Route path="/desmontando-mentiras" element={<DesmontandoMentiras />} />
-              <Route path="/memorial" element={<Memorial />} /> {/* Nova rota */}
               <Route path="/contato" element={<Contato />} />
               <Route path="*" element={<NotFound />} />
             </Routes>

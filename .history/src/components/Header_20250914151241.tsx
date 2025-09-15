@@ -1,6 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHome, faUser, faNewspaper, faQuoteLeft, faEnvelope, faLightbulb, faLandmark } from "@fortawesome/free-solid-svg-icons";
+import { faHome, faUser, faNewspaper, faQuoteLeft, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import BrandIcon from "./BrandIcon";
 
 const Header = () => {
@@ -34,14 +34,6 @@ const Header = () => {
           <NavLink to="/citacoes" className={navLinkClass}>
             <FontAwesomeIcon icon={faQuoteLeft} className="h-4 w-4" />
             <span>Citações</span>
-          </NavLink>
-          <NavLink to="/desmontando-mentiras" className={navLinkClass}>
-            <FontAwesomeIcon icon={faLightbulb} className="h-4 w-4" />
-            <span>Mentiras</span>
-          </NavLink>
-          <NavLink to="/memorial" className={navLinkClass}>
-            <FontAwesomeIcon icon={faLandmark} className="h-4 w-4" />
-            <span>Memorial</span>
           </NavLink>
           <NavLink to="/contato" className={navLinkClass}>
             <FontAwesomeIcon icon={faEnvelope} className="h-4 w-4" />

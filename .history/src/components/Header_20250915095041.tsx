@@ -1,6 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHome, faUser, faNewspaper, faQuoteLeft, faEnvelope, faLightbulb, faLandmark } from "@fortawesome/free-solid-svg-icons";
+import { faHome, faUser, faNewspaper, faQuoteLeft, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import BrandIcon from "./BrandIcon";
 
 const Header = () => {
