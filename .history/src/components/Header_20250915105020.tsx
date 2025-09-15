@@ -15,7 +15,7 @@ const Header = () => {
         <Link to="/" className="mr-6 flex items-center space-x-2">
           <BrandIcon className="h-6 w-6 text-primary" />
           <span className="font-bold sm:inline-block">
-            Charlie Kirk Memorial
+            Tributo Charlie Kirk
           </span>
         </Link>
         <nav className="flex items-center space-x-4 lg:space-x-6">
