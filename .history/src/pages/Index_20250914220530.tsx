@@ -96,7 +96,10 @@ const Index = () => {
             ))}
           </div>
         </div>
-      </section>      
+      </section>
+      <blockquote class="text-lg italic leading-relaxed text-foreground">
+          Charlie Kirk nunca usou discurso de ódio. Ele usou um discurso que eles odiavam.
+      </blockquote>
     </div>
   );
 };

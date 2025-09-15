@@ -22,6 +22,9 @@ const Index = () => {
         <h2 className="text-5xl font-extrabold text-primary mb-6 leading-tight">
           Voz da Nova Geração Conservadora
         </h2>
+        <blockquote data-dyad-id="src\components\FeaturedQuotes.tsx:24:16" data-dyad-name="blockquote" class="text-lg italic leading-relaxed text-foreground">
+          Charlie Kirk nunca usou discurso de ódio. Ele usou um discurso que eles odiavam.
+        </blockquote>        
         <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
           Explore o legado, as ideias e o impacto de um dos mais influentes ativistas jovens da atualidade.
         </p>
@@ -96,7 +99,7 @@ const Index = () => {
             ))}
           </div>
         </div>
-      </section>      
+      </section>
     </div>
   );
 };

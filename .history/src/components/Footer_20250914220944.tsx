@@ -4,7 +4,7 @@ import { faXTwitter } from "@fortawesome/free-brands-svg-icons";
 const Footer = () => {
   return (
     <footer className="border-t">
-      <div className="flex flex-col items-center justify-center px-8 md:flex-row md:gap-2 md:py-3">
+      <div className="flex flex-col items-center px-8 md:flex-row md:gap-2 md:py-3">
           <blockquote className="text-lg italic leading-relaxed text-foreground">
           Charlie Kirk nunca usou discurso de ódio. Ele usou um discurso que eles odiavam.
           </blockquote>
