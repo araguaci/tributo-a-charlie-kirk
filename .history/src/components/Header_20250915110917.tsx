@@ -1,6 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHome, faUser, faNewspaper, faQuoteLeft, faEnvelope, faLightbulb, faLandmark } from "@fortawesome/free-solid-svg-icons";
+import { faHome, faUser, faNewspaper, faQuoteLeft, faEnvelope, faLightbulb, faLandmark, faMicrophoneAlt } from "@fortawesome/free-solid-svg-icons";
 import BrandIcon from "./BrandIcon";
 
 const Header = () => {
@@ -18,7 +18,7 @@ const Header = () => {
             Charlie Kirk Memorial
           </span>
         </Link>
-        <nav className="flex items-center space-x-4 lg:space-x-6">
+        <nav className="flex flex-wrap items-center space-x-4 lg:space-x-6">
           <NavLink to="/" className={navLinkClass}>
             <FontAwesomeIcon icon={faHome} className="h-4 w-4" />
             <span>Home</span>
@@ -42,6 +42,10 @@ const Header = () => {
           <NavLink to="/memorial" className={navLinkClass}>
             <FontAwesomeIcon icon={faLandmark} className="h-4 w-4" />
             <span>Memorial</span>
+          </NavLink>
+          <NavLink to="/vigilia" className={navLinkClass}>
+            <FontAwesomeIcon icon={faMicrophoneAlt} className="h-4 w-4" />
+            <span>Vigília</span>
           </NavLink>
           <NavLink to="/contato" className={navLinkClass}>
             <FontAwesomeIcon icon={faEnvelope} className="h-4 w-4" />
